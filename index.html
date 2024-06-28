@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Enjoy Your Game</title>
+    <link rel="shortcut icon" href="photo/tictac.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="start">
+        <p class="welcome">WELCOME TO HAPPY GAME - TIC TAC TOE</p>
+        <button class="start-btn">Start</button>
+
+        <p>Choose Your Player</p>
+        <label for="playerX">
+            <input type="radio" name="choose" id="playerX">Player X
+        </label>
+        <label for="playerO">
+            <input type="radio" name="choose" id="playerO">Player O
+        </label>        
+
+
+    </header>
+
+    <main class="main display">
+        <h1 id="tic">Tic Tac Toe</h1>
+        <div class="winner">
+            <p class="winPara"></p>
+            <button class="new-btn">New Game</button>
+        </div>
+        <div class="container">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <button class="reset-btn">Reset</button>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
